@@ -1,6 +1,6 @@
 Download artifact from jenkins dashboard.
 
-wget --auth-no-challenge --http-user=<jenkinsuser> --http-password=<jenkinspassword> http://<Jenkins Public IP>:8080/job/ci-job/4/artifact/webapp/target/webapp.war
+wget --auth-no-challenge --http-user=<jenkinsuser> --http-password=<jenkinspassword> http://Jenkins IP:8080/job/ci-job/4/artifact/webapp/target/webapp.war
 
 
 Create docker image.
